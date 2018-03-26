@@ -33,4 +33,4 @@ The RMSE values from the UKF and the EKF filter are shown in the next table, for
 | Vx            | 0.3439           | 0.4281           | 0.2821       | 0.4513       |
 | Vy            | 0.3751           | 0.2630           | 0.2727       | 0.4399       |
 
-As can be seen, the UKF RMSE are lower than the EKF. Even the UKF using only the LIDAR sensor is lower than the sensor fusion with the EKF, which demonstrate the superior capabilities of the UKF filter. However, in some applications which doesn't require high precision, or are have limited CPU capabilities, may opt for the EKF algorithm, which is simpler and lighter to implement.
+As can be seen, the UKF RMSE are lower than the EKF. Even the UKF using only the LIDAR sensor is lower than the sensor fusion with the EKF, which demonstrate the superior capabilities of the UKF filter. However, applications which don't require high precision, or are have limited CPU capabilities, may opt for the EKF algorithm, which is simpler and lighter to implement.
