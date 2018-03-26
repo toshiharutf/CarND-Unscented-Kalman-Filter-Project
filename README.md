@@ -18,7 +18,7 @@ For running the code in Linux, you just  need the following instructions in the 
 ## Results of the simulation
 The simulations using the  udacity simulator can be found below. The RMSE values are below the required values.
 
-![alt text](UKF_data1.png)
+![alt text](images/UKF_data1.png)
 
 
 ## Unscented vs Extended Kalman filter
