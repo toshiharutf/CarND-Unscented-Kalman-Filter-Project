@@ -27,7 +27,7 @@ The UKF was designed to take into account the non-linearities of dynamic systems
 The RMSE values from the UKF and the EKF filter are shown in the next table, for comparison.
 
 | Parameters    | UKF (Radar only) | UKF (Lidar only) | UKF (fusion) | EKF (fusion) |
-| ------------- |:----------------:|:----------------:|:------------:|-------------:|
+| ------------- |:----------------:|:----------------:|:------------:|:------------:|
 | X             | 0.1496 	   | 0.0983           | 0.0620       | 0.0973       |
 | Y             | 0.2020           | 0.0958           | 0.0816       | 0.0855       |
 | Vx            | 0.3439           | 0.4281           | 0.2821       | 0.4513       |
